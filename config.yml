@@ -1,5 +1,5 @@
 baseURL: ""
-title: ExampleSite
+title: Infinity Girl Coder
 paginate: 5
 theme: PaperMod
 
@@ -122,10 +122,15 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    - identifier: search
+      name: search
+      url: /search/
       weight: 30
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
@@ -135,3 +140,8 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
