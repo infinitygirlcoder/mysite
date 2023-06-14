@@ -122,9 +122,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: search
-      name: search
-      url: /search/
+    - identifier: Search
+      name: Search
+      url: /Search/
       weight: 30
     #- identifier: example
     #  name: example.org
